@@ -1,0 +1,52 @@
+{
+    "techstack": [
+        {
+            "id": 1,
+            "title": "Angular",
+            "description": "Angular is a platform for building mobile and desktop web applications. Join the community of millions of developers who build compelling user interfaces ....",
+            "version": 16.2,
+            "image": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1096616/retina_1708x683_cover-top-18-most-common-angularjs-developer-mistakes-41f9ad303a51db70e4a5204e101e7414.png",
+            "link": "https://angular.io/"
+        },
+        {
+            "id": 2,
+            "title": "React",
+            "description": "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
+            "version": 18.2,
+            "image": "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png",
+            "link": "https://react.dev/"
+        },
+        {
+            "id": 3,
+            "title": "Vue Js",
+            "description": "The Progressive JavaScript Framework An approachable, performant and versatile framework for building web user interfaces.",
+            "version": 3.2,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png",
+            "link": "https://vuejs.org/"
+        },
+        {
+            "id": 4,
+            "title": "Nex JS",
+            "description": "Used by some of the world's largest companies, Next.js enables you to create full-stack Web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.",
+            "version": 13.2,
+            "image": "https://images.ctfassets.net/23aumh6u8s0i/c04wENP3FnbevwdWzrePs/1e2739fa6d0aa5192cf89599e009da4e/nextjs",
+            "link": "https://nextjs.org/"
+        },
+        {
+            "id": 5,
+            "title": "Node Js",
+            "description": "Node.js is an open source server environment; Node.js is free; Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.) ; Node.js can generate ....",
+            "version": 20.0,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWvlxZIVKXmrMbP9oQdqiRSHMRZY1ARnTkAinZs0gZSN5CRbAj1bT38t6v6V556n0Ngj8&usqp=CAU",
+            "link": "https://nodejs.org/en"
+        },
+        {
+            "id": 6,
+            "title": "Solid JS",
+            "description": "Solid stands on the shoulders of giants, particularly React and Knockout. If you've developed with React Functional Components and Hooks before, Solid will feel .",
+            "version": 1.7,
+            "image": "https://blog.logrocket.com/wp-content/uploads/2023/01/solid-start.png",
+            "link": "https://www.solidjs.com/"
+        }
+    ]
+}
