@@ -1,41 +1,28 @@
-## Usage
+# Introduction to Solidarity (SOLID JS)
+![](https://www.solidjs.com/og.jpg)
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+## Installations
+Here we are using minimal librariese to make and check it from scratch and learn it properly.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm install
+yarn
 ```
+**Run it in local **
+> **Recomended to install the JSON server.**
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+```bash
+npm run dev
+yarn dev
+yarn run server
+```
+### What you learn ?
+Once you go through the official documentation and understand the concepts,  then you will be able to understand the concepts we are derving here.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
-
-
-## New API and API Documentation
-
-- Client Effect
-- Create Store
-- Context in solid js.
+- Its architecture and flow.
+- Use of reactive modules
+- Use of **Signals**
+- Use of **Stores**
+- Use of **Solid Router**
+- Use of ** Context ** and state management.
