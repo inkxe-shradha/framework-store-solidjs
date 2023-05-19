@@ -14,6 +14,10 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
+/**
+ * * Configured Router Instances
+ * * Configured Context Provider for state management
+ */
 render(
   () => (
     <Router>

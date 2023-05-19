@@ -7,33 +7,14 @@ const fetchTechStacks = async () => {
 };
 
 const Home = () => {
+  // Todo: Solid way to fetch the API details from the server
   const [techstack] = createResource(fetchTechStacks);
   return (
     <>
       {/* Show when (If/Else) */}
       <Show when={techstack()} fallback={<p> Data Loading </p>}>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10 py-4">
-          {/* <Card rounded={true} flat={false}>
-            <h2>Angular</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
-              dolorum vitae delectus laboriosam, harum consectetur ducimus
-              repudiandae sint eligendi, dolore sit dignissimos nam reiciendis,
-              laudantium placeat tempora vel commodi fugit.
-            </p>
-            <button class="btn">View</button>
-          </Card>
-          <Card rounded={false} flat={true}>
-            <h2>Angular</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
-              dolorum vitae delectus laboriosam, harum consectetur ducimus
-              repudiandae sint eligendi, dolore sit dignissimos nam reiciendis,
-              laudantium placeat tempora vel commodi fugit.
-            </p>
-            <button class="btn">View</button>
-          </Card> */}
-          {/* Looping through the components */}
+          {/* Looping through the components and passed the props to the custom components */}
           <For each={techstack()}>
             {(tech) => (
               <Card rounded={true} flat={true}>

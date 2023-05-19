@@ -7,13 +7,20 @@ const getSingleTechStackDetail = async (techId) => {
 };
 
 const TechDetails = () => {
-  const params = useParams();
+  const params = useParams(); // * Get the params/query parameters from the URL
+
+  // * Fetch the details for the parameters and passing the id into the  resource functions
   const [techstack] = createResource(params.id, getSingleTechStackDetail);
+
+  // * Calling the store
   const { storeItems, setStoreItems } = useContextHook();
   setStoreItems({ ...storeItems, isBannerVisible: false });
+
+  //  * On Component destruction clean up the codes.
   onCleanup(() => {
     setStoreItems({ ...storeItems, isBannerVisible: true });
   });
+
   // Getting the id property from the router parameters
   return (
     <div class="my-7">
